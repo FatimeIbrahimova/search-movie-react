@@ -1,0 +1,28 @@
+.header-desc{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper img{
+    width: 100%
+}
+.header-desc h1{
+    color:white;
+}
+.header-desc input{
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    outline: none;
+}
+.fa-solid{
+    position: absolute;
+    right: 10px;
+    top: 95px;
+}
