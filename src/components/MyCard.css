@@ -1,0 +1,24 @@
+.cards{
+    border:1px solid;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(238, 238, 243, 0.2) 0px 7px 29px 0px;
+}
+.card-img{
+    width: 100%;
+    border-bottom: 1px solid gray;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-title{
+    border-bottom: 1px solid gray;
+}
+a{
+    padding-bottom: 20px;
+}
